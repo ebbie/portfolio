@@ -1,8 +1,13 @@
 {
     "title": "Landing Page",
-    "name": "startbootstrap-landing-page",
+    "name": "Portfolio",
     "version": "4.0.0",
-    "description": "An HTML landing page template built with Bootstrap",
+    "description": "An HTML landing page built with Bootstrap",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
     "keywords": [
         "css",
         "sass",
@@ -17,7 +22,7 @@
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "ebbie",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
@@ -27,6 +32,7 @@
     },
     "dependencies": {
         "bootstrap": "4.0.0",
+        "express": "^4.16.3",
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
         "simple-line-icons": "^2.4.1"
